@@ -1,1 +1,4 @@
 case_id,image,nguon,van_de,quyet_dinh,quy_tac_ghi_vao_guideline,phien_ban_guideline
+CAL-01,img_005.jpg,loi_may,Cụm xe máy quá dày đặc dưới 20px ở ngã tư,Dùng ignore_region thay vì vẽ rời rạc,Sử dụng ignore_region cho cụm phương tiện nhỏ dưới 20px mật độ cao,v1.1
+CAL-02,img_013.jpg,cau_hoi_mo,Xe ba bánh chở hàng cồng kềnh bị lẫn lộn giữa car và three_wheeler,Sử dụng YOLOE prompt text hoặc phân loại lại theo quy chuẩn,Quy chuẩn lại nhãn three_wheeler cho xe ba bánh/xích lô chở hàng,v1.1
+CAL-03,img_021.jpg,loi_may,Box bị lệch biên nhẹ ở các phương tiện khuất tầm nhìn,Kéo chỉnh thủ công và chuẩn hóa biên theo tâm vật thể,Chuẩn hóa bounding box ôm sát biên thực tế của phương tiện,v1.1
